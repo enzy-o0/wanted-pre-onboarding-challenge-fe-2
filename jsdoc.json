@@ -1,0 +1,17 @@
+// markdown 파일을 읽어 들일 수 있는 plugin을 지정하고, js파일들을 source 파일로 읽어 들인다.
+{
+  "source": {
+    "include": ["."],
+    "includePattern": ".js$",
+    "excludePattern": "(node_modules/|docs)"
+  },
+  "plugins": ["node_modules/jsdoc/plugins/markdown"],
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true
+  },
+  "opts": {
+    "recurse": true,
+    "destination": "./docs/"
+  }
+}

@@ -5,10 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "start": "webpack serve --config webpack.config.js"
+    "doc": "jsdoc -c jsdoc.json"
   },
   "repository": {
     "type": "git",
