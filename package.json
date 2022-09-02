@@ -1,0 +1,26 @@
+{
+  "name": "wanted-pre-onboarding-challenge-fe-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzy-o0/wanted-pre-onboarding-challenge-fe-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enzy-o0/wanted-pre-onboarding-challenge-fe-2/issues"
+  },
+  "homepage": "https://github.com/enzy-o0/wanted-pre-onboarding-challenge-fe-2#readme",
+  "devDependencies": {
+    "jsdoc": "3.6.11"
+  },
+  "dependencies": {
+    "docdash": "1.2.0"
+  }
+}
