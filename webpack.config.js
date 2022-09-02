@@ -5,8 +5,8 @@ module.exports = {
   mode: "production",
   entry: "./index.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "index.js",
+    path: path.resolve(__dirname, "out"),
+    filename: "index.html",
   },
   plugins: [
     new JsDocPlugin({
